@@ -1,0 +1,28 @@
+{
+  "name": "hwk-9-mail-sender",
+  "version": "1.0.0",
+  "description": "send mail to your personal google account every 5 minutes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.ts"
+  },
+  "keywords": [
+    "nodemailer",
+    "cron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-cron": "^2.0.4",
+    "@types/nodemailer": "^6.4.4",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.3"
+  }
+}

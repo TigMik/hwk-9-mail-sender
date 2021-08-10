@@ -1,0 +1,10 @@
+version: '2'
+
+services: 
+    app: 
+        build: 
+            context: .
+        restart: always
+        container_name: app
+        volumes:
+            - ./src/:/app/src/
